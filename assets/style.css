@@ -1,0 +1,43 @@
+*{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estiliza a div que contém os elementos */
+ .container {
+    margin-top: 5%;
+    background: white;
+    padding: 20px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estiliza os inputs */
+input {
+    display: block; /* Faz os inputs ficarem um abaixo do outro */
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 22PX;
+}
+
+/* Estiliza o botão */
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Efeito no botão ao passar o mouse */
+button:hover {
+    background-color: #45a049;
+}
