@@ -14,11 +14,11 @@
     // depois que rodar os codigos acima sera executado essas perguntas
     let resposta = parseInt(prompt(`Voce Gosta de estudar ${linguagem} ? Responda com o número 1 para Sim ou 2 para Não`));
     
-    if (resposta == 1){
+    if (resposta === 1){
         alert('Muito bom! Continue estudando e você terá muito sucesso.');
     } 
 
-    if (resposta == 2){
+    if (resposta === 2){
         alert('Ahh que pena... Já tentou aprender outras linguagens?');
     }
     
