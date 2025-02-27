@@ -23,16 +23,3 @@
     }
     
 }
-
-
-function promptInt(mensagem, tenteNovamente) {
-    var msg = mensagem;
-    while (true) {
-        var ret = parseInt(prompt(msg));
-        if (!isNaN(ret)) return ret;
-        msg = tenteNovamente;
-    }
-}
-
-var count = promptInt("Teste", "Por favor, digite um número.\nTente novamente.");
-alert("Você digitou o número " + count + ".");
